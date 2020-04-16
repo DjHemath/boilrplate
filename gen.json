@@ -1,0 +1,29 @@
+{
+    "project-name": "Sample API",
+    "author": "HemathKumar R",
+    "version": "1.0",
+    "spec": {
+        "language": "nodejs",
+        "framework": "express",
+        "database": {
+            "dbms": "mongodb",
+            "orm": {
+                "enable": true,
+                "package": "mongoose"
+            }
+        }
+    },
+    "others": {
+        "version-control": {
+            "system": "git",
+            "remote": "github.com"
+        },
+        "env": {
+            "enable": true,
+            "variables": [
+                {"MONGODB_URL": "kfjskjds"},
+                {"JWT_SECRET": "secret"}
+            ]
+        }
+    }
+}
