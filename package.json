@@ -1,0 +1,11 @@
+{
+  "name": "boilrplate",
+  "version": "1.0.0",
+  "description": "Boilrplate is a boilerplate generating tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HemathKumar R",
+  "license": "ISC"
+}
