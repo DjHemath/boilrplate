@@ -1,0 +1,1 @@
+{"name":"Sample API","version":"1.0","author":"HemathKumar R","dependencies":{"express":"*","mongoose":"*","dotenv":"*"}}

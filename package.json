@@ -4,11 +4,14 @@
   "description": "Boilrplate is a boilerplate generating tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "HemathKumar R",
   "license": "ISC",
   "dependencies": {
     "commander": "^5.0.0"
+  },
+  "bin": {
+    "boilrplate": "./index.js"
   }
 }

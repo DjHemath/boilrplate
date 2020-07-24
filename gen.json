@@ -1,7 +1,8 @@
 {
     "project-name": "Sample API",
     "author": "HemathKumar R",
-    "version": "1.0",
+    "version": "1.0.0",
+    "dist": "dist",
     "spec": {
         "language": "nodejs",
         "framework": "express",
@@ -11,18 +12,23 @@
                 "enable": true,
                 "package": "mongoose"
             }
-        }
+        },
+        "resources": ["users", "products"]
     },
     "others": {
         "version-control": {
             "system": "git",
-            "remote": "github.com"
+            "remote": "github.com",
+            "ignore": [
+                "/node_modules",
+                ".env"
+            ]
         },
         "env": {
             "enable": true,
             "variables": [
-                {"MONGODB_URL": "kfjskjds"},
-                {"JWT_SECRET": "secret"}
+                ["MONGODB_URL", "kfjskjds"],
+                ["JWT_SECRET", "secret"]
             ]
         }
     }
